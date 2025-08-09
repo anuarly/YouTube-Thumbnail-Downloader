@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center space-x-2">
             <YouTubeIcon className="h-8 w-8 text-red-600" />
             <span className="text-xl font-bold text-gray-800 dark:text-white">
-              YT Thumbnail Downloader
+              Creator Click
             </span>
           </Link>
 
@@ -28,8 +28,8 @@ const Header: React.FC = () => {
             <NavLink to="/" className={navLinkClass}>Home</NavLink>
             <NavLink to="/blogs" className={navLinkClass}>Blogs</NavLink>
             <NavLink to="/about" className={navLinkClass}>About</NavLink>
-            <NavLink to="/privacy" className={navLinkClass}>Privacy</NavLink>
             <NavLink to="/contact" className={navLinkClass}>Contact</NavLink>
+            <NavLink to="/privacy" className={navLinkClass}>Privacy</NavLink>
           </div>
 
           <div className="md:hidden">
@@ -52,8 +52,8 @@ const Header: React.FC = () => {
             <NavLink to="/" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>Home</NavLink>
             <NavLink to="/blogs" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>Blogs</NavLink>
             <NavLink to="/about" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>About</NavLink>
-            <NavLink to="/privacy" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>Privacy</NavLink>
             <NavLink to="/contact" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>Contact</NavLink>
+            <NavLink to="/privacy" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>Privacy</NavLink>
           </div>
         </div>
       )}

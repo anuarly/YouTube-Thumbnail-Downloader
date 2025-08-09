@@ -8,6 +8,7 @@ import PrivacyPage from './pages/PrivacyPage';
 import BlogListPage from './pages/BlogListPage';
 import BlogPostPage from './pages/BlogPostPage';
 import ContactPage from './pages/ContactPage';
+import TermsOfServicePage from './pages/TermsOfServicePage';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           <Route path="blogs" element={<BlogListPage />} />
           <Route path="blogs/:slug" element={<BlogPostPage />} />
           <Route path="contact" element={<ContactPage />} />
+          <Route path="terms" element={<TermsOfServicePage />} />
         </Route>
       </Routes>
     </HashRouter>
