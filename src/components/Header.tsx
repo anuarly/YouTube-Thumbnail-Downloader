@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { YouTubeIcon } from './icons/YouTubeIcon';
+import { CreatorClickIcon } from './icons/CreatorClickIcon';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -18,7 +17,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <YouTubeIcon className="h-8 w-8 text-red-600" />
+            <CreatorClickIcon className="h-8 w-8" />
             <span className="text-xl font-bold text-gray-800 dark:text-white">
               Creator Click
             </span>

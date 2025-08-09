@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { blogPosts } from '../data/blogPosts';
-import { YouTubeIcon } from '../components/icons/YouTubeIcon';
+import { CreatorClickIcon } from '../components/icons/CreatorClickIcon';
 
 const HomePage: React.FC = () => {
     // Featuring the first 3 blog posts on the home page
@@ -11,7 +10,7 @@ const HomePage: React.FC = () => {
     return (
         <div className="flex flex-col items-center">
             <div className="text-center max-w-3xl">
-                 <YouTubeIcon className="h-20 w-20 text-red-600 mx-auto mb-4" />
+                 <CreatorClickIcon className="h-20 w-20 mx-auto mb-4" />
                 <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 dark:text-white tracking-tight">
                     Stop Guessing. Start Growing.
                 </h1>

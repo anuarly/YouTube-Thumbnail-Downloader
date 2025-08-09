@@ -1,12 +1,11 @@
-
 import React from 'react';
-import { YouTubeIcon } from '../components/icons/YouTubeIcon';
+import { CreatorClickIcon } from '../components/icons/CreatorClickIcon';
 
 const AboutPage: React.FC = () => {
     return (
         <div className="prose dark:prose-invert max-w-4xl mx-auto bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
             <div className="flex items-center gap-4 mb-6">
-                <YouTubeIcon className="h-16 w-16 text-red-600" />
+                <CreatorClickIcon className="h-16 w-16" />
                 <h1 className="text-4xl font-bold !m-0">About Creator Click</h1>
             </div>
             

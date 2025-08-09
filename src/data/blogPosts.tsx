@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { type BlogPost } from '../types';
 
@@ -213,7 +212,6 @@ const blogContent3 = (
         <p>Your thumbnails are the gatekeepers of your content. By making these common mistakes, you are inadvertently locking the gate and throwing away the key. Take a hard, honest look at your channel's thumbnails. Are they falling into any of these traps? By consciously avoiding unreadable text, low-quality images, emotional voids, and misleading promises, you can transform your thumbnails from saboteurs into superstars. A great thumbnail is an investment that pays dividends in clicks, views, and subscribers. Start treating it with the importance it deserves, and watch as you unlock your channel's true potential.</p>
     </div>
 );
-
 
 export const blogPosts: BlogPost[] = [
     {
