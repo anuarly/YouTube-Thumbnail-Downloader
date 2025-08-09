@@ -29,6 +29,7 @@ const Header: React.FC = () => {
             <NavLink to="/blogs" className={navLinkClass}>Blogs</NavLink>
             <NavLink to="/about" className={navLinkClass}>About</NavLink>
             <NavLink to="/privacy" className={navLinkClass}>Privacy</NavLink>
+            <NavLink to="/contact" className={navLinkClass}>Contact</NavLink>
           </div>
 
           <div className="md:hidden">
@@ -52,6 +53,7 @@ const Header: React.FC = () => {
             <NavLink to="/blogs" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>Blogs</NavLink>
             <NavLink to="/about" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>About</NavLink>
             <NavLink to="/privacy" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>Privacy</NavLink>
+            <NavLink to="/contact" className={navLinkClass} onClick={() => setIsMenuOpen(false)}>Contact</NavLink>
           </div>
         </div>
       )}

@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage';
 import PrivacyPage from './pages/PrivacyPage';
 import BlogListPage from './pages/BlogListPage';
 import BlogPostPage from './pages/BlogPostPage';
+import ContactPage from './pages/ContactPage';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Route path="privacy" element={<PrivacyPage />} />
           <Route path="blogs" element={<BlogListPage />} />
           <Route path="blogs/:slug" element={<BlogPostPage />} />
+          <Route path="contact" element={<ContactPage />} />
         </Route>
       </Routes>
     </HashRouter>

@@ -62,7 +62,7 @@ const PrivacyPage: React.FC = () => {
 
             <h2>Information We Collect</h2>
             <p>
-                Our service is designed to be used anonymously. We do not require you to create an an account or provide any personal information to use our thumbnail downloader tool. The only data we process is the YouTube URL you provide, which is used solely to fetch the corresponding thumbnails. This URL is processed in real-time and is not stored on our servers.
+                Our service is designed to be used anonymously. We do not require you to create an account or provide any personal information to use our thumbnail downloader tool. The only data we process is the YouTube URL you provide, which is used solely to fetch the corresponding thumbnails. This URL is processed in real-time and is not stored on our servers.
             </p>
             
             <h2>Children's Information</h2>

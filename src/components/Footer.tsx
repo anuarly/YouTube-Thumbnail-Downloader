@@ -11,6 +11,8 @@ const Footer: React.FC = () => {
           <Link to="/about" className="hover:text-red-600 transition-colors mx-2">About Us</Link>
           <span className="mx-1">|</span>
           <Link to="/privacy" className="hover:text-red-600 transition-colors mx-2">Privacy Policy</Link>
+          <span className="mx-1">|</span>
+          <Link to="/contact" className="hover:text-red-600 transition-colors mx-2">Contact Us</Link>
         </div>
       </div>
     </footer>
